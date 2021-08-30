@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TestDeliciously</string>
+    <string name="app_title">Test Deliciously</string>
+
+    <string name="dumbo_text">Dumbo</string>
+    <string name="dumbo_type_restaurant">Burgers</string>
+    <string name="dumbo_adresse_restaurant">64 rue Jean-Baptiste Pigalle, 75009\nParis.</string>
+    <string name="dumbo_carac1">Sur le pouce</string>
+    <string name="dumbo_carac2">Comfort food</string>
+    <string name="dumbo_carac3">Canivore</string>
+    <string name="dumbo_carac4">Moins de 15€</string>
+
+    <string name="bouillon_text">Bouillon 47</string>
+    <string name="bouillon_type_restaurant">Gastro tradi</string>
+    <string name="bouillon_adresse_restaurant">47 rue M. de Rochechouart, 75009\nParis.</string>
+    <string name="bouillon_carac1">France</string>
+    <string name="bouillon_carac2">Tradi</string>
+    <string name="bouillon_carac3">Cuisine locale</string>
+    <string name="bouillon_carac4">Entre 30€ et 50€</string>
+</resources>

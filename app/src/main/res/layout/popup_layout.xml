@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popup_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <View
+        android:id="@+id/border_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_image4dp"/>
+
+    <ImageView
+        android:id="@+id/photo_restaurant"
+        android:layout_width="237dp"
+        android:layout_height="253dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="Photo du lieux"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/quitButton"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_margin="7dp"
+        android:background="@mipmap/remove"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nom_restaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo_restaurant" />
+
+    <TextView
+        android:id="@+id/type_restaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/dark_grey"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nom_restaurant"/>
+
+    <TextView
+        android:id="@+id/adresse_restaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/dark_grey"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/type_restaurant"/>
+
+    <ImageView
+        android:id="@+id/carac1"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@mipmap/dot"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adresse_restaurant"/>
+
+    <TextView
+        android:id="@+id/textCarac1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/dark_grey"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/carac1"
+        app:layout_constraintTop_toBottomOf="@+id/carac1"
+        app:layout_constraintEnd_toEndOf="@id/carac1"/>
+
+    <ImageView
+        android:id="@+id/carac2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@mipmap/dot"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/carac1"
+        app:layout_constraintTop_toBottomOf="@+id/adresse_restaurant"/>
+
+    <TextView
+        android:id="@+id/textCarac2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/dark_grey"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/carac2"
+        app:layout_constraintTop_toBottomOf="@+id/carac2"
+        app:layout_constraintEnd_toEndOf="@id/carac2"/>
+
+    <ImageView
+        android:id="@+id/carac3"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@mipmap/dot"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/carac2"
+        app:layout_constraintTop_toBottomOf="@+id/adresse_restaurant"/>
+
+    <TextView
+        android:id="@+id/textCarac3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/dark_grey"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/carac3"
+        app:layout_constraintTop_toBottomOf="@+id/carac3"
+        app:layout_constraintEnd_toEndOf="@id/carac3"/>
+    <ImageView
+        android:id="@+id/carac4"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@mipmap/dot"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/carac3"
+        app:layout_constraintTop_toBottomOf="@+id/adresse_restaurant"/>
+
+    <TextView
+        android:id="@+id/textCarac4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/dark_grey"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/carac4"
+        app:layout_constraintTop_toBottomOf="@+id/carac4"
+        app:layout_constraintEnd_toEndOf="@id/carac4"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
